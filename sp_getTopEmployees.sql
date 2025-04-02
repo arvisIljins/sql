@@ -5,7 +5,7 @@ GO
 ALTER PROCEDURE [dbo].[sp_getTopEmployees]
 AS
 BEGIN
-    SELECT TOP (10) [EmployeeID]
+    SELECT TOP (100) [EmployeeID]
           ,[Name]
           ,[Position]
           ,[Department]
